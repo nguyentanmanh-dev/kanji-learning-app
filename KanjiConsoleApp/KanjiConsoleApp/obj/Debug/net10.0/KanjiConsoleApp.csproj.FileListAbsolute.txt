@@ -1,0 +1,15 @@
+D:\Projects\kanji-learning-app\KanjiConsoleApp\KanjiConsoleApp\bin\Debug\net10.0\KanjiConsoleApp.exe
+D:\Projects\kanji-learning-app\KanjiConsoleApp\KanjiConsoleApp\bin\Debug\net10.0\KanjiConsoleApp.deps.json
+D:\Projects\kanji-learning-app\KanjiConsoleApp\KanjiConsoleApp\bin\Debug\net10.0\KanjiConsoleApp.runtimeconfig.json
+D:\Projects\kanji-learning-app\KanjiConsoleApp\KanjiConsoleApp\bin\Debug\net10.0\KanjiConsoleApp.dll
+D:\Projects\kanji-learning-app\KanjiConsoleApp\KanjiConsoleApp\bin\Debug\net10.0\KanjiConsoleApp.pdb
+D:\Projects\kanji-learning-app\KanjiConsoleApp\KanjiConsoleApp\obj\Debug\net10.0\KanjiConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\kanji-learning-app\KanjiConsoleApp\KanjiConsoleApp\obj\Debug\net10.0\KanjiConsoleApp.AssemblyInfoInputs.cache
+D:\Projects\kanji-learning-app\KanjiConsoleApp\KanjiConsoleApp\obj\Debug\net10.0\KanjiConsoleApp.AssemblyInfo.cs
+D:\Projects\kanji-learning-app\KanjiConsoleApp\KanjiConsoleApp\obj\Debug\net10.0\KanjiConsoleApp.csproj.CoreCompileInputs.cache
+D:\Projects\kanji-learning-app\KanjiConsoleApp\KanjiConsoleApp\obj\Debug\net10.0\KanjiConsoleApp.sourcelink.json
+D:\Projects\kanji-learning-app\KanjiConsoleApp\KanjiConsoleApp\obj\Debug\net10.0\KanjiConsoleApp.dll
+D:\Projects\kanji-learning-app\KanjiConsoleApp\KanjiConsoleApp\obj\Debug\net10.0\refint\KanjiConsoleApp.dll
+D:\Projects\kanji-learning-app\KanjiConsoleApp\KanjiConsoleApp\obj\Debug\net10.0\KanjiConsoleApp.pdb
+D:\Projects\kanji-learning-app\KanjiConsoleApp\KanjiConsoleApp\obj\Debug\net10.0\KanjiConsoleApp.genruntimeconfig.cache
+D:\Projects\kanji-learning-app\KanjiConsoleApp\KanjiConsoleApp\obj\Debug\net10.0\ref\KanjiConsoleApp.dll
