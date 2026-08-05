@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using KanjiConsoleApp.Interfaces;
 
 namespace KanjiConsoleApp.Models
 {
-    internal class Kanji
+    public class Kanji : LearningItem, IStudyable
     {
         private string _character;
         public string Character
@@ -26,9 +27,13 @@ namespace KanjiConsoleApp.Models
             StrokeCount = strokeCount;
             JlptLevel = jlptLevel;
         }
-        public void Display()
+        public override void Display()
         {
-            Console.WriteLine($"{Character} - On: {OnYomi}, Kun: {KunYomi}, Meaning: {Meaning}, Stroke Count: {StrokeCount}, JLPT Level: {JlptLevel}");
+            Console.WriteLine($"[{Id}] {Character} - On: {OnYomi}, Kun: {KunYomi}, Meaning: {Meaning}, Stroke Count: {StrokeCount}, JLPT Level: {JlptLevel}");
+        }
+        public void review()
+        {
+            Console.WriteLine($"Reviewing Kanji: {Character}");
         }
     }
 }
