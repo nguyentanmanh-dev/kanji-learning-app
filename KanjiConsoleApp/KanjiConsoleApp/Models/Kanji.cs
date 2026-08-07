@@ -31,6 +31,17 @@ namespace KanjiConsoleApp.Models
         {
             Console.WriteLine($"[{Id}] {Character} - On: {OnYomi}, Kun: {KunYomi}, Meaning: {Meaning}, Stroke Count: {StrokeCount}, JLPT Level: {JlptLevel}");
         }
+        public void Display(bool showDetails)
+        {
+            if (showDetails)
+            {
+                Console.WriteLine($"[{Id}] {Character} - On: {OnYomi}, Kun: {KunYomi}, Meaning: {Meaning}");
+            }
+            else
+            {
+                Console.WriteLine($"[{Id}] {Character} - Meaning: {Meaning}");
+            }
+        }
         public void review()
         {
             Console.WriteLine($"Reviewing Kanji: {Character}");

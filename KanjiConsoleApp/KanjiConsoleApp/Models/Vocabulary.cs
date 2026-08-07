@@ -7,8 +7,8 @@ namespace KanjiConsoleApp.Models
 {   
     public class Vocabulary : LearningItem, IStudyable
     {
-        public string Word;
-        public string Meaning;
+        public string Word { get; set; }
+        public string Meaning { get; set; }
         public Vocabulary(string word, string meaning)
         {
             Word = word;

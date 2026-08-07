@@ -1,5 +1,6 @@
 ﻿using KanjiConsoleApp.Models;
 using System.Text;
+using System.Linq;
 
 Console.OutputEncoding = Encoding.UTF8;
 
@@ -10,19 +11,19 @@ myStudyList.Add(new Kanji("火", "カ", "ひ", "Lửa", 4, "N5"));
 
 myStudyList.Add(new Vocabulary("がくせい (Gakusei)", "Sinh viên"));
 myStudyList.Add(new Vocabulary("せんせい (Sensei)", "Giáo viên"));
-
-Console.WriteLine("=== DANH SÁCH HỌC TẬP HÔM NAY ===\n");
-
+Kanji k = new Kanji("木", "モク", "き", "Cây", 4, "N5");
+k.Display();
+k.Display(true);
+k.Display(false);
 foreach (LearningItem item in myStudyList)
 {
     item.Display();
 }
-
-try
+static void ShowSummary(List<LearningItem> items)
 {
-    Kanji kLoi = new Kanji("", "", "", "test", 1, "N5");
+    int KanjiCount = items.OfType<Kanji>().Count();
+    int VocabularyCount = items.OfType<Vocabulary>().Count();
+    Console.WriteLine($"Số lượng Kanji: {KanjiCount}");
+    Console.WriteLine($"Số lượng Vocabulary: {VocabularyCount}");
 }
-catch (ArgumentException ex)
-{
-    Console.WriteLine($"Lỗi bắt được: {ex.Message}");
-}
+ShowSummary(myStudyList);
