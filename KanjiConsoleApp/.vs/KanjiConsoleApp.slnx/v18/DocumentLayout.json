@@ -7,12 +7,24 @@
       "RelativeMoniker": "D:0:0:{4186D98F-871C-D544-DE2C-EE713C978DB0}|KanjiConsoleApp\\KanjiConsoleApp.csproj|solutionrelative:kanjiconsoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4186D98F-871C-D544-DE2C-EE713C978DB0}|KanjiConsoleApp\\KanjiConsoleApp.csproj|d:\\projects\\kanji-learning-app\\kanjiconsoleapp\\kanjiconsoleapp\\models\\kanji.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4186D98F-871C-D544-DE2C-EE713C978DB0}|KanjiConsoleApp\\KanjiConsoleApp.csproj|solutionrelative:kanjiconsoleapp\\models\\kanji.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4186D98F-871C-D544-DE2C-EE713C978DB0}|KanjiConsoleApp\\KanjiConsoleApp.csproj|d:\\projects\\kanji-learning-app\\kanjiconsoleapp\\kanjiconsoleapp\\services\\menuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4186D98F-871C-D544-DE2C-EE713C978DB0}|KanjiConsoleApp\\KanjiConsoleApp.csproj|solutionrelative:kanjiconsoleapp\\services\\menuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4186D98F-871C-D544-DE2C-EE713C978DB0}|KanjiConsoleApp\\KanjiConsoleApp.csproj|d:\\projects\\kanji-learning-app\\kanjiconsoleapp\\kanjiconsoleapp\\models\\vocabulary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4186D98F-871C-D544-DE2C-EE713C978DB0}|KanjiConsoleApp\\KanjiConsoleApp.csproj|solutionrelative:kanjiconsoleapp\\models\\vocabulary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4186D98F-871C-D544-DE2C-EE713C978DB0}|KanjiConsoleApp\\KanjiConsoleApp.csproj|d:\\projects\\kanji-learning-app\\kanjiconsoleapp\\kanjiconsoleapp\\models\\kanji.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4186D98F-871C-D544-DE2C-EE713C978DB0}|KanjiConsoleApp\\KanjiConsoleApp.csproj|solutionrelative:kanjiconsoleapp\\models\\kanji.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4186D98F-871C-D544-DE2C-EE713C978DB0}|KanjiConsoleApp\\KanjiConsoleApp.csproj|d:\\projects\\kanji-learning-app\\kanjiconsoleapp\\kanjiconsoleapp\\interfaces\\ilearningrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4186D98F-871C-D544-DE2C-EE713C978DB0}|KanjiConsoleApp\\KanjiConsoleApp.csproj|solutionrelative:kanjiconsoleapp\\interfaces\\ilearningrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4186D98F-871C-D544-DE2C-EE713C978DB0}|KanjiConsoleApp\\KanjiConsoleApp.csproj|d:\\projects\\kanji-learning-app\\kanjiconsoleapp\\kanjiconsoleapp\\repositories\\learningrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4186D98F-871C-D544-DE2C-EE713C978DB0}|KanjiConsoleApp\\KanjiConsoleApp.csproj|solutionrelative:kanjiconsoleapp\\repositories\\learningrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4186D98F-871C-D544-DE2C-EE713C978DB0}|KanjiConsoleApp\\KanjiConsoleApp.csproj|d:\\projects\\kanji-learning-app\\kanjiconsoleapp\\kanjiconsoleapp\\models\\learningitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,9 +50,9 @@
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Projects\\kanji-learning-app\\KanjiConsoleApp\\KanjiConsoleApp\\Program.cs",
               "RelativeDocumentMoniker": "KanjiConsoleApp\\Program.cs",
-              "ToolTip": "D:\\Projects\\kanji-learning-app\\KanjiConsoleApp\\KanjiConsoleApp\\Program.cs",
-              "RelativeToolTip": "KanjiConsoleApp\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAAZAAAAAAAAAA==",
+              "ToolTip": "D:\\Projects\\kanji-learning-app\\KanjiConsoleApp\\KanjiConsoleApp\\Program.cs*",
+              "RelativeToolTip": "KanjiConsoleApp\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-30T15:07:25.068Z",
               "IsPinned": true,
@@ -52,18 +64,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Kanji.cs",
-              "DocumentMoniker": "D:\\Projects\\kanji-learning-app\\KanjiConsoleApp\\KanjiConsoleApp\\Models\\Kanji.cs",
-              "RelativeDocumentMoniker": "KanjiConsoleApp\\Models\\Kanji.cs",
-              "ToolTip": "D:\\Projects\\kanji-learning-app\\KanjiConsoleApp\\KanjiConsoleApp\\Models\\Kanji.cs",
-              "RelativeToolTip": "KanjiConsoleApp\\Models\\Kanji.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAzwCUAAABpAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-05T14:12:20.544Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Vocabulary.cs",
               "DocumentMoniker": "D:\\Projects\\kanji-learning-app\\KanjiConsoleApp\\KanjiConsoleApp\\Models\\Vocabulary.cs",
@@ -72,23 +72,51 @@
               "RelativeToolTip": "KanjiConsoleApp\\Models\\Vocabulary.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-05T12:22:33.38Z"
+              "WhenOpened": "2026-08-05T12:22:33.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MenuService.cs",
+              "DocumentMoniker": "D:\\Projects\\kanji-learning-app\\KanjiConsoleApp\\KanjiConsoleApp\\Services\\MenuService.cs",
+              "RelativeDocumentMoniker": "KanjiConsoleApp\\Services\\MenuService.cs",
+              "ToolTip": "D:\\Projects\\kanji-learning-app\\KanjiConsoleApp\\KanjiConsoleApp\\Services\\MenuService.cs",
+              "RelativeToolTip": "KanjiConsoleApp\\Services\\MenuService.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAgwGcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-07T03:23:54.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LearningRepository.cs",
+              "DocumentMoniker": "D:\\Projects\\kanji-learning-app\\KanjiConsoleApp\\KanjiConsoleApp\\Repositories\\LearningRepository.cs",
+              "RelativeDocumentMoniker": "KanjiConsoleApp\\Repositories\\LearningRepository.cs",
+              "ToolTip": "D:\\Projects\\kanji-learning-app\\KanjiConsoleApp\\KanjiConsoleApp\\Repositories\\LearningRepository.cs",
+              "RelativeToolTip": "KanjiConsoleApp\\Repositories\\LearningRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-07T03:23:13.992Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "IStudyable.cs",
-              "DocumentMoniker": "D:\\Projects\\kanji-learning-app\\KanjiConsoleApp\\KanjiConsoleApp\\Interfaces\\IStudyable.cs",
-              "RelativeDocumentMoniker": "KanjiConsoleApp\\Interfaces\\IStudyable.cs",
-              "ToolTip": "D:\\Projects\\kanji-learning-app\\KanjiConsoleApp\\KanjiConsoleApp\\Interfaces\\IStudyable.cs",
-              "RelativeToolTip": "KanjiConsoleApp\\Interfaces\\IStudyable.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
+              "Title": "ILearningRepository.cs",
+              "DocumentMoniker": "D:\\Projects\\kanji-learning-app\\KanjiConsoleApp\\KanjiConsoleApp\\Interfaces\\ILearningRepository.cs",
+              "RelativeDocumentMoniker": "KanjiConsoleApp\\Interfaces\\ILearningRepository.cs",
+              "ToolTip": "D:\\Projects\\kanji-learning-app\\KanjiConsoleApp\\KanjiConsoleApp\\Interfaces\\ILearningRepository.cs",
+              "RelativeToolTip": "KanjiConsoleApp\\Interfaces\\ILearningRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-01T12:38:20.811Z"
+              "WhenOpened": "2026-08-07T03:21:29.527Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "LearningItem.cs",
               "DocumentMoniker": "D:\\Projects\\kanji-learning-app\\KanjiConsoleApp\\KanjiConsoleApp\\Models\\LearningItem.cs",
               "RelativeDocumentMoniker": "KanjiConsoleApp\\Models\\LearningItem.cs",
@@ -99,8 +127,33 @@
               "WhenOpened": "2026-07-31T15:15:51.905Z"
             },
             {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Kanji.cs",
+              "DocumentMoniker": "D:\\Projects\\kanji-learning-app\\KanjiConsoleApp\\KanjiConsoleApp\\Models\\Kanji.cs",
+              "RelativeDocumentMoniker": "KanjiConsoleApp\\Models\\Kanji.cs",
+              "ToolTip": "D:\\Projects\\kanji-learning-app\\KanjiConsoleApp\\KanjiConsoleApp\\Models\\Kanji.cs",
+              "RelativeToolTip": "KanjiConsoleApp\\Models\\Kanji.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCUAAABpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-05T14:12:20.544Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IStudyable.cs",
+              "DocumentMoniker": "D:\\Projects\\kanji-learning-app\\KanjiConsoleApp\\KanjiConsoleApp\\Interfaces\\IStudyable.cs",
+              "RelativeDocumentMoniker": "KanjiConsoleApp\\Interfaces\\IStudyable.cs",
+              "ToolTip": "D:\\Projects\\kanji-learning-app\\KanjiConsoleApp\\KanjiConsoleApp\\Interfaces\\IStudyable.cs",
+              "RelativeToolTip": "KanjiConsoleApp\\Interfaces\\IStudyable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T12:38:20.811Z"
             }
           ]
         }
