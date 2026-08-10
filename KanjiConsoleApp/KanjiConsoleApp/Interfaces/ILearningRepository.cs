@@ -10,5 +10,6 @@ namespace KanjiConsoleApp.Interfaces
         void Add(LearningItem item);
         List<LearningItem> GetAll();
         List<LearningItem> Search(string keyword);
+        List<LearningItem> Remove(string id);
     }
 }

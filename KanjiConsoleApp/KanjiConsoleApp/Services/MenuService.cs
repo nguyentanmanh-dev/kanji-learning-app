@@ -19,12 +19,13 @@ namespace KanjiConsoleApp.Services
             bool running = true;
             while (running)
             {
-                Console.WriteLine("\n===== KANJI LEARNING APP =====");
+                Console.WriteLine("===== KANJI LEARNING APP =====");
                 Console.WriteLine("1. Thêm Kanji");
                 Console.WriteLine("2. Thêm Từ vựng");
                 Console.WriteLine("3. Xem danh sách");
                 Console.WriteLine("4. Tìm kiếm");
                 Console.WriteLine("5. Thoát");
+                Console.WriteLine("6. Xóa theo id");
                 Console.Write("Chọn chức năng: ");
                 var choice = Console.ReadLine();
                 switch (choice)
@@ -34,6 +35,7 @@ namespace KanjiConsoleApp.Services
                     case "3": ShowAll(); break;
                     case "4": SearchItems(); break;
                     case "5": running = false; break;
+                    case "6": RemoveItems(); break;
                     default : Console.WriteLine("Lựa chọn không hợp lệ. Vui lòng thử lại."); break;
                 }
             }    
@@ -100,6 +102,20 @@ namespace KanjiConsoleApp.Services
             foreach (var item in results)
             {
                 item.Display();
+            }
+        }
+        private void RemoveItems()
+        {
+            Console.Write("Nhập ID của từ cần xóa: ");
+            var id = Console.ReadLine() ?? "";
+            var items = _repository.Remove(id);
+            if (items.Any(i => i.Id == id))
+            {
+                Console.WriteLine("Không tìm thấy từ với ID đã cho.");
+            }
+            else
+            {
+                Console.WriteLine("Đã xóa từ thành công.");
             }
         }
     }
