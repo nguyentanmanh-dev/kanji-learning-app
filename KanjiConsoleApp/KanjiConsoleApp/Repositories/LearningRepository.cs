@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using KanjiConsoleApp.Models;
 using KanjiConsoleApp.Interfaces;
+using System.Linq;
 
 namespace KanjiConsoleApp.Repositories
 {
@@ -31,6 +32,14 @@ namespace KanjiConsoleApp.Repositories
                 _items.Remove(itemToRemove);
             }
             return _items;
+        }
+        public List<string> GetCharactersWithMinStroke(int minStroke)
+        {
+            return _items.OfType<Kanji>().Where(k => k.StrokeCount >= minStroke).Select(k => k.Character).ToList();
+        }
+        public List<string> GetAllCharacters()
+        {
+            return _items.OfType<Kanji>().Select(k => k.Character).ToList();
         }
     }
 }
